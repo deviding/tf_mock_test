@@ -103,7 +103,7 @@ run "subnet_test" {
 ## ディレクトリ構成
 
 ~~~shell
-mock_test_tf/
+tf_mock_test/
 ├── main.tf            # terraformバージョンなどの設定(モック無関係)
 ├── subnet.tf          # サブネット作成(VPC検索がモック対象)
 ├── db_subnet_group.tf # DBサブネットグループ作成(サブネット検索がモック対象)
