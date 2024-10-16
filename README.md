@@ -117,10 +117,10 @@ tf_mock_test/
 
 前提として、TerraformとAWS CLIの設定が完了して各種コマンドが実行できる状態にしておいてください。
 
-mock_test_tfディレクトリに移動します。
+tf_mock_testディレクトリに移動します。
 
 ~~~shell
-cd mock_test_tf
+cd tf_mock_test
 ~~~
 
 initしてルートモジュールとして初期化します。
